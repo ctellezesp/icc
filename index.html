@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lang="es-ES">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar - International Champions Cup</title>
+  <link rel="icon" href="media/favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    body {
+      font-family: 'Coda Caption', sans-serif;
+    }
+    table img {
+      width: auto;
+      height: 2em;
+      display: inline-block;
+    }
+    .modal img {
+      width: auto;
+      height: 2em;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+     });
+  </script>
+</head>
+<body>
+<!--menu-->
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper" style="background: #837450">
+      <a href="#!" class="brand-logo" style="margin-left: 10px;"><span class="hide-on-small-only">International Champions Cup</span><span class="hide-on-med-and-up">ICC</span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html"><i class="material-icons left">ondemand_video</i>Matchs</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+<ul id="slide-out" class="side-nav">
+  <li><div class="userView">
+    <div class="background">
+      <img src="media/minibg.jpg">
+    </div>
+      <a href="#!user"><img class="circle" src="media/logo.png"></a>
+      <a href="#!name"><span class="white-text name">ICC</span></a>
+    </div></li>
+    <li><a href="index.html"><i class="material-icons">ondemand_video</i>Matchs</a></li>
+</ul>
+<div class="row" style="margin-top: 1%;">
+    <div class="col s12 m10 l10 offset-l1 offset-m1">
+      <div class="card">
+      <table class="striped centered responsive-table">
+        <thead>
+          <tr>
+              <th>Date</th>
+              <th colspan="2">Home</th>
+              <th></th>
+              <th colspan="2">Away</th>
+              <th></th>
+              <th>Watch</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>20 July 2018</td>
+            <td><img src="media/logos/mancity.png"></td>
+            <td>Manchester City</td>
+            <td>vs</td>
+            <td>Borussia Dortmund</td>
+            <td><img src="media/logos/dortmund.png"></td>
+            <td>Friendly</td>
+            <td><a href="matches/2018/mc-vs-bvb.html"><i class="material-icons">play_circle_outline</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>   
+  </div>
+</div>
+
+</body>
+<footer class="page-footer" style="background: #837450">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12" >
+                <h5 class="white-text">International Champions Cup</h5>
+                <p class="grey-text text-lighten-4"></p>
+              </div>
+              <!--<div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/CTellez98">Twitter Personal</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/ChelseaFC">Twitter Club</a></li>
+                </ul>
+              </div>-->
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Carlos Tellez
+            <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Materialize Framework</a>
+            </div>
+          </div>
+        </footer>
+</html>
